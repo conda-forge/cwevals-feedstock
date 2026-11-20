@@ -1,5 +1,5 @@
 context:
-  version: "0.0.1b1"
+  version: "0.0.1b3"
 
 package:
   name: cwevals
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cwevals/cwevals-${{ version }}.tar.gz
-  sha256: 2ae997369ff44941925e4db1bd07eb4e13c05de412e615636fd12881d63f8a13
+  sha256: 2647ffa8338634db70e9cbd1d9232f0a62f2b7d7b2c5d8a2f0bb750d4aeced45
 
 build:
   noarch: python
