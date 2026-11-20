@@ -161,6 +161,21 @@ Terminology
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
 
+Maintainer Notes
+================
+
+The easiest way is to create an [Issue](https://github.com/conda-forge/cwevals-feedstock/issues)
+and tag `@conda-forge-admin` in the title, such as:
+
+`@conda-forge-admin, please add user @<username>`
+
+That will generate a PR.
+
+The full list of commands is documented here:
+https://conda-forge.org/docs/maintainer/infrastructure/#admin-web-services
+
+There's a bot that should auto-generate PRs to update the version when PyPI is
+updated, such as conda-forge/cwevals-feedstock/pull/1. We just need to merge it.
 
 Updating cwevals-feedstock
 ==========================
