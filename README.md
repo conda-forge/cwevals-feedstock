@@ -187,5 +187,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@dmitryduev](https://github.com/dmitryduev/)
+See [.receipe_maintainers.json](.recipe_maintainers.json)
 
